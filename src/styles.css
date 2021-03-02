@@ -1,0 +1,87 @@
+* {
+  margin: 0.1rem;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.titre {
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+  margin: 0;
+  background: rgb(0, 0, 128);
+  padding: 1.5rem;
+  color: white;
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+
+h1 {
+  font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.display-result {
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+  flex-direction: column;
+
+  font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: larger;
+  padding: 0.5rem;
+  margin: 1rem;
+  width: 50%;
+
+}
+
+.bold-font {
+  font-weight: bold;
+  padding: 0.1rem;
+}
+
+.show-result {
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+  flex-direction: column;
+  padding: 0.5rem;
+  padding-left: 2rem;
+  width: 20rem;
+}
+.display-info {
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+  flex-direction: column;
+  padding: 1rem;
+  margin: 1rem;
+
+  width: 100%;
+}
+.display-button {
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+  flex-direction: column;
+  padding: 1rem;
+  margin: 1rem;
+
+  width: 100%;
+}
+
+button {
+  background: rgb(0, 0, 128);
+  padding: 1rem;
+  margin: 1rem;
+  color: white;
+  font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: larger;
+  cursor: pointer;
+}
+
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
